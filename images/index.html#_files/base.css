@@ -1,0 +1,39 @@
+.width-65-percent{
+	margin-left: auto;
+	margin-right: auto;
+	width: 65%;
+}
+.logo-size{
+	width: 35px;
+}
+.brand{
+	color: #666;
+	font-size: 15px;
+}
+.container-fluid{
+	line-height: 3;
+}
+.non-rounded-corners{
+	border-radius: 0px !important;
+}
+.rounded-corners{
+	border-radius: 10px;
+}
+
+.table{
+	margin-top: 20px;
+	padding: 20px;
+}
+
+.card{
+	width: 50px;
+	height:70px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px #999999;
+	display: inline-block;
+}
+
+.communityContainer h4{
+
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/core.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="src/cards.js"></script>
+    <script type="text/javascript" src="src/deck.js"></script>
+    <script type="text/javascript" src="src/player.js"></script>
+    <script type="text/javascript" src="src/pokerHand1.js"></script>
+    <script type="text/javascript" src="src/fullHand.js"></script>
+    <script type="text/javascript" src="src/game.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-inverse non-rounded-corners">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <span><img class="logo-size" src="../images/poker-icon-250.png"/></span>
+            <span class="brand">Poker Game</span>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="playerPrompt width-65-percent">
+      <header>
+        <h5>How many players are in this game?</h5>
+        <div class="form-group">
+          <input type="text" class="form-control" id="numOfPlayer" placeholder="Enter a number from 2 - 12">
+          </div>
+        <button id="playGame" type="submit" class="btn btn-success"> Play! </button>
+      </header>
+      <div id="gameTable" class="table jumbotron rounded-corners">
+        <div id="communityContainer"></div>
+        <div id="playersContainer"></div>
+        <div id="winnerContainer"></div>
+      </div>
+    </section>
+  </body>
+</html>
